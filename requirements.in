@@ -1,0 +1,4 @@
+fastapi==0.75.1
+uvicorn==0.17.6
+sqlalchemy==1.4.34
+mysql-connector-python==8.0.28
