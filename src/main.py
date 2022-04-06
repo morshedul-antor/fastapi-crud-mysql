@@ -13,7 +13,7 @@ Base.metadata.create_all(engine)
 
 @app.get("/")
 async def root():
-       return {"message": "CRUD Application SQLITE"}
+       return {"message": "CRUD Application MYSQL"}
 
 
 @app.post("/todo", status_code=status.HTTP_201_CREATED)
